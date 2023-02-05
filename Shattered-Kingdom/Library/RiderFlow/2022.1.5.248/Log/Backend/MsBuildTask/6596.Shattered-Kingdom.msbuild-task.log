@@ -1,0 +1,51 @@
+﻿23:35:15.515 |I| Core                           | RequestBuilder thread:8        | MsBuild process with Id = 18908
+23:35:15.516 |I| Core                           | RequestBuilder thread:8        | MsBuild location = C:\Users\roman\AppData\Local\JetBrains\BuildTools\MSBuild\Current\Bin\MSBuild.exe
+23:35:15.516 |I| Core                           | RequestBuilder thread:8        | 
+23:35:15.516 |I| Core                           | RequestBuilder thread:8        | Start ControllerTask...
+23:35:15.516 |I| Core                           | RequestBuilder thread:8        | Detected version: 17.0
+23:35:15.516 |I| Core                           | RequestBuilder thread:8        | Creating SocketWire with port = 60870
+23:35:15.531 |I| Core                           | RequestBuilder thread:8        | Create protocol...
+23:35:15.564 |I| Core                           | RequestBuilder thread:8        | Create MsBuildModel and advise for new sessions...
+23:35:15.583 |I| Core                           | RequestBuilder thread:8        | Subscribe for changes...
+23:35:15.583 |I| Core                           | RequestBuilder thread:8        | Setup process watchdog...
+23:35:15.584 |I| Core                           | RequestBuilder thread:8        | Run dispatcher...
+23:35:15.584 |I| ProcessWatchdog                | WatchParentPid:6596:12         | Monitoring parent process PID:6596
+23:35:15.652 |I| Core                           | RequestBuilder thread:8        | Get protocol session 'RdProjectModelSession'
+23:35:15.656 |I| Core                           | RequestBuilder thread:8        | Msbuild session 'ProjectModelSessionHost' created
+23:35:15.706 |I| ProjectModel                   | RequestBuilder thread:8        | Reloading 5 project(s) in 1 node(s)...
+23:35:15.723 |I| Build                          | :3                             | Build started.
+23:35:16.248 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Assembly-CSharp.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+23:35:16.250 |I| BuildQueue                     | RequestBuilder thread:8        | Build immediately: Assembly-CSharp.csproj
+23:35:16.252 |I| Build                          | RequestBuilder thread:8        | Start build 'Assembly-CSharp.csproj' with 1 target frameworks
+23:35:16.265 |I| Build                          | RequestBuilder thread:8        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+23:35:16.268 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'JetBrains.Frontend.2021.2.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+23:35:16.268 |I| BuildQueue                     | RequestBuilder thread:8        | Build immediately: JetBrains.Frontend.2021.2.csproj
+23:35:16.268 |I| Build                          | RequestBuilder thread:8        | Start build 'JetBrains.Frontend.2021.2.csproj' with 1 target frameworks
+23:35:16.270 |I| Build                          | RequestBuilder thread:8        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+23:35:16.270 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'Assembly-CSharp-Editor-firstpass.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+23:35:16.270 |I| BuildQueue                     | RequestBuilder thread:8        | Build immediately: Assembly-CSharp-Editor-firstpass.csproj
+23:35:16.270 |I| Build                          | RequestBuilder thread:8        | Start build 'Assembly-CSharp-Editor-firstpass.csproj' with 1 target frameworks
+23:35:16.270 |I| Build                          | RequestBuilder thread:8        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+23:35:16.270 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'JetBrains.Frontend.2019.4.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+23:35:16.270 |I| BuildQueue                     | RequestBuilder thread:8        | Build immediately: JetBrains.Frontend.2019.4.csproj
+23:35:16.271 |I| Build                          | RequestBuilder thread:8        | Start build 'JetBrains.Frontend.2019.4.csproj' with 1 target frameworks
+23:35:16.271 |I| Build                          | RequestBuilder thread:8        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+23:35:16.271 |I| ProjectModel                   | RequestBuilder thread:8        | Project 'JetBrains.Frontend.2020.2.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+23:35:16.271 |I| BuildQueue                     | RequestBuilder thread:8        | Build immediately: JetBrains.Frontend.2020.2.csproj
+23:35:16.271 |I| Build                          | RequestBuilder thread:8        | Start build 'JetBrains.Frontend.2020.2.csproj' with 1 target frameworks
+23:35:16.271 |I| Build                          | RequestBuilder thread:8        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+23:35:16.644 |I| Build                          | :3                             | Finish build part [1/1] for project 'Assembly-CSharp.csproj': Success
+23:35:16.644 |I| Build                          | :3                             | Finish build project 'Assembly-CSharp.csproj': Success
+23:35:16.673 |I| Build                          | :16                            | Finish build part [1/1] for project 'JetBrains.Frontend.2020.2.csproj': Success
+23:35:16.673 |I| Build                          | :16                            | Finish build project 'JetBrains.Frontend.2020.2.csproj': Success
+23:35:16.703 |I| Build                          | :17                            | Finish build part [1/1] for project 'JetBrains.Frontend.2019.4.csproj': Success
+23:35:16.703 |I| Build                          | :17                            | Finish build project 'JetBrains.Frontend.2019.4.csproj': Success
+23:35:16.753 |I| Build                          | :17                            | Finish build part [1/1] for project 'Assembly-CSharp-Editor-firstpass.csproj': Success
+23:35:16.753 |I| Build                          | :17                            | Finish build project 'Assembly-CSharp-Editor-firstpass.csproj': Success
+23:35:16.809 |I| Build                          | :3                             | Finish build part [1/1] for project 'JetBrains.Frontend.2021.2.csproj': Success
+23:35:16.809 |I| Build                          | :3                             | Finish build project 'JetBrains.Frontend.2021.2.csproj': Success
+23:35:21.540 |I| ProjectModel                   | RequestBuilder thread:8        | Reloading has finished, statistic: 
+	Total: 5,81 sec
+	Binding: 0,05 sec
+	Evaluation: 0,45 sec
+23:35:21.549 |I| Build                          | :4                             | Build succeeded.

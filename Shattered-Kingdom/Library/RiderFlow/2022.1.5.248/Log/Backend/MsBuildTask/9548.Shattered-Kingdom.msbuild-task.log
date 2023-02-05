@@ -1,0 +1,148 @@
+﻿13:46:03.311 |I| Core                           | RequestBuilder thread:7        | MsBuild process with Id = 12532
+13:46:03.312 |I| Core                           | RequestBuilder thread:7        | MsBuild location = C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe
+13:46:03.313 |I| Core                           | RequestBuilder thread:7        | 
+13:46:03.313 |I| Core                           | RequestBuilder thread:7        | Start ControllerTask...
+13:46:03.313 |I| Core                           | RequestBuilder thread:7        | Detected version: 4.8
+13:46:03.313 |I| Core                           | RequestBuilder thread:7        | Creating SocketWire with port = 50971
+13:46:03.348 |I| Core                           | RequestBuilder thread:7        | Create protocol...
+13:46:03.389 |I| Core                           | RequestBuilder thread:7        | Create MsBuildModel and advise for new sessions...
+13:46:03.417 |I| Core                           | RequestBuilder thread:7        | Subscribe for changes...
+13:46:03.417 |I| Core                           | RequestBuilder thread:7        | Setup process watchdog...
+13:46:03.418 |I| Core                           | RequestBuilder thread:7        | Run dispatcher...
+13:46:03.418 |I| ProcessWatchdog                | WatchParentPid:9548:11         | Monitoring parent process PID:9548
+13:46:03.482 |I| Core                           | RequestBuilder thread:7        | Get protocol session 'RdProjectModelSession'
+13:46:03.489 |I| Core                           | RequestBuilder thread:7        | Msbuild session 'ProjectModelSessionHost' created
+13:46:03.536 |I| ProjectModel                   | RequestBuilder thread:7        | Reloading 5 project(s) in 1 node(s)...
+13:46:03.544 |I| Build                          | :3                             | Build started.
+13:46:03.777 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Assembly-CSharp.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+13:46:03.780 |I| BuildQueue                     | RequestBuilder thread:7        | Build immediately: Assembly-CSharp.csproj
+13:46:03.782 |I| Build                          | RequestBuilder thread:7        | Start build 'Assembly-CSharp.csproj' with 1 target frameworks
+13:46:03.784 |I| Build                          | RequestBuilder thread:7        | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+13:46:03.786 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'JetBrains.Frontend.2021.2.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+13:46:03.786 |I| BuildQueue                     | RequestBuilder thread:7        | Build immediately: JetBrains.Frontend.2021.2.csproj
+13:46:03.786 |I| Build                          | RequestBuilder thread:7        | Start build 'JetBrains.Frontend.2021.2.csproj' with 1 target frameworks
+13:46:03.787 |I| Build                          | RequestBuilder thread:7        | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+13:46:03.787 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Assembly-CSharp-Editor-firstpass.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+13:46:03.787 |I| BuildQueue                     | RequestBuilder thread:7        | Build immediately: Assembly-CSharp-Editor-firstpass.csproj
+13:46:03.787 |I| Build                          | RequestBuilder thread:7        | Start build 'Assembly-CSharp-Editor-firstpass.csproj' with 1 target frameworks
+13:46:03.788 |I| Build                          | RequestBuilder thread:7        | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+13:46:03.788 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'JetBrains.Frontend.2019.4.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+13:46:03.788 |I| BuildQueue                     | RequestBuilder thread:7        | Build immediately: JetBrains.Frontend.2019.4.csproj
+13:46:03.788 |I| Build                          | RequestBuilder thread:7        | Start build 'JetBrains.Frontend.2019.4.csproj' with 1 target frameworks
+13:46:03.788 |I| Build                          | RequestBuilder thread:7        | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+13:46:03.800 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'JetBrains.Frontend.2020.2.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+13:46:03.800 |I| BuildQueue                     | RequestBuilder thread:7        | Build immediately: JetBrains.Frontend.2020.2.csproj
+13:46:03.800 |I| Build                          | RequestBuilder thread:7        | Start build 'JetBrains.Frontend.2020.2.csproj' with 1 target frameworks
+13:46:03.800 |I| Build                          | RequestBuilder thread:7        | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+13:46:06.347 |I| Build                          | :4                             | Finish build part [1/1] for project 'Assembly-CSharp.csproj': Success
+13:46:06.348 |I| Build                          | :4                             | Finish build project 'Assembly-CSharp.csproj': Success
+13:46:06.349 |I| Build                          | :16                            | Finish build part [1/1] for project 'JetBrains.Frontend.2020.2.csproj': Success
+13:46:06.349 |I| Build                          | :16                            | Finish build project 'JetBrains.Frontend.2020.2.csproj': Success
+13:46:06.351 |I| Build                          | :18                            | Finish build part [1/1] for project 'JetBrains.Frontend.2019.4.csproj': Success
+13:46:06.351 |I| Build                          | :18                            | Finish build project 'JetBrains.Frontend.2019.4.csproj': Success
+13:46:06.353 |I| Build                          | :6                             | Finish build part [1/1] for project 'Assembly-CSharp-Editor-firstpass.csproj': Success
+13:46:06.353 |I| Build                          | :6                             | Finish build project 'Assembly-CSharp-Editor-firstpass.csproj': Success
+13:46:08.397 |I| Build                          | :13                            | Finish build part [1/1] for project 'JetBrains.Frontend.2021.2.csproj': Success
+13:46:08.397 |I| Build                          | :13                            | Finish build project 'JetBrains.Frontend.2021.2.csproj': Success
+13:46:08.419 |I| ProjectModel                   | RequestBuilder thread:7        | Reloading has finished, statistic: 
+	Total: 4,87 sec
+	Binding: 0,11 sec
+	Evaluation: 0,19 sec
+13:46:08.433 |I| Build                          | :4                             | Build succeeded.
+15:16:46.855 |I| ProjectModel                   | RequestBuilder thread:7        | Reloading 13 project(s) in 1 node(s)...
+15:16:46.859 |I| Build                          | :13                            | Build started.
+15:16:46.976 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'PhotonUnityNetworking.Demos.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+15:16:46.977 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'PhotonUnityNetworking.Utilities.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+15:16:46.977 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'PhotonChat.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+15:16:46.977 |I| BuildQueue                     | RequestBuilder thread:7        | Build immediately: PhotonChat.csproj
+15:16:46.977 |I| Build                          | RequestBuilder thread:7        | Start build 'PhotonChat.csproj' with 1 target frameworks
+15:16:46.977 |I| Build                          | RequestBuilder thread:7        | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+15:16:46.978 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'PhotonUnityNetworking.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+15:16:46.978 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'PhotonRealtime.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+15:16:46.978 |I| BuildQueue                     | RequestBuilder thread:7        | Build immediately: PhotonRealtime.csproj
+15:16:46.978 |I| Build                          | RequestBuilder thread:7        | Start build 'PhotonRealtime.csproj' with 1 target frameworks
+15:16:46.979 |I| Build                          | RequestBuilder thread:7        | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+15:16:46.980 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'PhotonUnityNetworking.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+15:16:46.980 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'PunDemos.DemoSlotcarEditor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+15:16:46.980 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Assembly-CSharp-Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+15:16:46.980 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+15:16:46.980 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'PhotonUnityNetworking.Utilities.Culling.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+15:16:46.980 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'PunDemos.DemoHubEditor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+15:16:46.980 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Assembly-CSharp.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+15:16:46.980 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'JetBrains.Frontend.2021.2.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+15:16:46.980 |I| BuildQueue                     | RequestBuilder thread:7        | Build immediately: JetBrains.Frontend.2021.2.csproj
+15:16:46.980 |I| Build                          | RequestBuilder thread:7        | Start build 'JetBrains.Frontend.2021.2.csproj' with 1 target frameworks
+15:16:46.995 |I| Build                          | RequestBuilder thread:7        | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+15:16:47.082 |I| Build                          | :23                            | Finish build part [1/1] for project 'PhotonChat.csproj': Success
+15:16:47.082 |I| Build                          | :23                            | Finish build project 'PhotonChat.csproj': Success
+15:16:47.136 |I| Build                          | :4                             | Finish build part [1/1] for project 'JetBrains.Frontend.2021.2.csproj': Success
+15:16:47.136 |I| Build                          | :4                             | Finish build project 'JetBrains.Frontend.2021.2.csproj': Success
+15:16:47.169 |I| Build                          | :4                             | Finish build part [1/1] for project 'PhotonRealtime.csproj': Success
+15:16:47.169 |I| Build                          | :4                             | Finish build project 'PhotonRealtime.csproj': Success
+15:16:47.172 |I| BuildQueue                     | :4                             | Build layer: PhotonUnityNetworking.csproj
+15:16:47.172 |I| Build                          | :4                             | Start build 'PhotonUnityNetworking.csproj' with 1 target frameworks
+15:16:47.173 |I| Build                          | :4                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+15:16:47.198 |I| Build                          | :13                            | Finish build part [1/1] for project 'PhotonUnityNetworking.csproj': Success
+15:16:47.199 |I| Build                          | :13                            | Finish build project 'PhotonUnityNetworking.csproj': Success
+15:16:47.202 |I| BuildQueue                     | :13                            | Build layer: PhotonUnityNetworking.Utilities.csproj, PhotonUnityNetworking.Editor.csproj, PunDemos.DemoHubEditor.csproj
+15:16:47.202 |I| Build                          | :13                            | Start build 'PhotonUnityNetworking.Utilities.csproj' with 1 target frameworks
+15:16:47.202 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+15:16:47.202 |I| Build                          | :13                            | Start build 'PhotonUnityNetworking.Editor.csproj' with 1 target frameworks
+15:16:47.203 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+15:16:47.208 |I| Build                          | :13                            | Start build 'PunDemos.DemoHubEditor.csproj' with 1 target frameworks
+15:16:47.209 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+15:16:47.234 |I| Build                          | :16                            | Finish build part [1/1] for project 'PhotonUnityNetworking.Utilities.csproj': Success
+15:16:47.234 |I| Build                          | :16                            | Finish build project 'PhotonUnityNetworking.Utilities.csproj': Success
+15:16:47.236 |I| BuildQueue                     | :16                            | Build layer: PhotonUnityNetworking.Demos.csproj, PhotonUnityNetworking.Utilities.Culling.Editor.csproj
+15:16:47.236 |I| Build                          | :16                            | Start build 'PhotonUnityNetworking.Demos.csproj' with 1 target frameworks
+15:16:47.237 |I| Build                          | :16                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+15:16:47.237 |I| Build                          | :16                            | Start build 'PhotonUnityNetworking.Utilities.Culling.Editor.csproj' with 1 target frameworks
+15:16:47.238 |I| Build                          | :16                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+15:16:47.265 |I| Build                          | :16                            | Finish build part [1/1] for project 'PunDemos.DemoHubEditor.csproj': Success
+15:16:47.265 |I| Build                          | :16                            | Finish build project 'PunDemos.DemoHubEditor.csproj': Success
+15:16:47.291 |I| Build                          | :22                            | Finish build part [1/1] for project 'PhotonUnityNetworking.Utilities.Culling.Editor.csproj': Success
+15:16:47.291 |I| Build                          | :22                            | Finish build project 'PhotonUnityNetworking.Utilities.Culling.Editor.csproj': Success
+15:16:47.322 |I| Build                          | :4                             | Finish build part [1/1] for project 'PhotonUnityNetworking.Demos.csproj': Success
+15:16:47.322 |I| Build                          | :4                             | Finish build project 'PhotonUnityNetworking.Demos.csproj': Success
+15:16:47.325 |I| BuildQueue                     | :4                             | Build layer: PunDemos.DemoSlotcarEditor.csproj
+15:16:47.325 |I| Build                          | :4                             | Start build 'PunDemos.DemoSlotcarEditor.csproj' with 1 target frameworks
+15:16:47.326 |I| Build                          | :4                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+15:16:47.353 |I| Build                          | :4                             | Finish build part [1/1] for project 'PhotonUnityNetworking.Editor.csproj': Success
+15:16:47.353 |I| Build                          | :4                             | Finish build project 'PhotonUnityNetworking.Editor.csproj': Success
+15:16:47.355 |I| BuildQueue                     | :4                             | Build layer: PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj
+15:16:47.355 |I| Build                          | :4                             | Start build 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj' with 1 target frameworks
+15:16:47.356 |I| Build                          | :4                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+15:16:47.379 |I| Build                          | :16                            | Finish build part [1/1] for project 'PunDemos.DemoSlotcarEditor.csproj': Success
+15:16:47.379 |I| Build                          | :16                            | Finish build project 'PunDemos.DemoSlotcarEditor.csproj': Success
+15:16:47.409 |I| Build                          | :18                            | Finish build part [1/1] for project 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj': Success
+15:16:47.409 |I| Build                          | :18                            | Finish build project 'PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj': Success
+15:16:47.411 |I| BuildQueue                     | :18                            | Build layer: Assembly-CSharp.csproj
+15:16:47.411 |I| Build                          | :18                            | Start build 'Assembly-CSharp.csproj' with 1 target frameworks
+15:16:47.412 |I| Build                          | :18                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+15:16:47.463 |I| Build                          | :18                            | Finish build part [1/1] for project 'Assembly-CSharp.csproj': Success
+15:16:47.463 |I| Build                          | :18                            | Finish build project 'Assembly-CSharp.csproj': Success
+15:16:47.466 |I| BuildQueue                     | :18                            | Build layer: Assembly-CSharp-Editor.csproj
+15:16:47.466 |I| Build                          | :18                            | Start build 'Assembly-CSharp-Editor.csproj' with 1 target frameworks
+15:16:47.467 |I| Build                          | :18                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+15:16:47.504 |I| Build                          | :16                            | Finish build part [1/1] for project 'Assembly-CSharp-Editor.csproj': Success
+15:16:47.504 |I| Build                          | :16                            | Finish build project 'Assembly-CSharp-Editor.csproj': Success
+15:16:47.543 |I| ProjectModel                   | RequestBuilder thread:7        | Reloading has finished, statistic: 
+	Total: 0,68 sec
+	Binding: 0,04 sec
+	Evaluation: 0,08 sec
+15:16:47.544 |I| Build                          | :16                            | Build succeeded.
+15:34:24.419 |I| ProjectModel                   | RequestBuilder thread:7        | Reloading 1 project(s) in 1 node(s)...
+15:34:24.419 |I| Build                          | :18                            | Build started.
+15:34:24.426 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Assembly-CSharp.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+15:34:24.426 |I| BuildQueue                     | RequestBuilder thread:7        | Build immediately: Assembly-CSharp.csproj
+15:34:24.426 |I| Build                          | RequestBuilder thread:7        | Start build 'Assembly-CSharp.csproj' with 1 target frameworks
+15:34:24.427 |I| Build                          | RequestBuilder thread:7        | Targets for build: _CheckForInvalidConfigurationAndPlatform;GetFrameworkPaths;BeforeResolveReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveSDKReferences;ImplicitlyExpandDesignTimeFacades;XamlMarkupCompilePass1
+15:34:24.551 |I| Build                          | :27                            | Finish build part [1/1] for project 'Assembly-CSharp.csproj': Success
+15:34:24.552 |I| Build                          | :27                            | Finish build project 'Assembly-CSharp.csproj': Success
+15:34:24.584 |I| ProjectModel                   | RequestBuilder thread:7        | Reloading has finished, statistic: 
+	Total: 0,16 sec
+	Binding: 0,00 sec
+	Evaluation: 0,00 sec
+15:34:24.584 |I| Build                          | :43                            | Build succeeded.
+22:58:39.051 |I| Core                           | RequestBuilder thread:7        | Msbuild session 'ProjectModelSessionHost' was terminated
+22:58:39.053 |I| Core                           | RequestBuilder thread:7        | Connection lost, kill msbuild
